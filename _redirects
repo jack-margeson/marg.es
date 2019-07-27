@@ -3,3 +3,5 @@
 # Redirect default Netlify subdomain to primary domain
 https://margeson.netlify.com/* https://marg.es/:splat 301!
 
+# Redirect marg.es to marg.es/on
+https://marg.es https://marge.es/on
