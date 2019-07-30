@@ -1,5 +1,5 @@
 html {
-  background-color: #FBFBFB;
+  background-color: #ffffe8;
 }
 
 * {
@@ -62,7 +62,7 @@ html {
   font-size: 20px;
 }
 
-.image {
+img {
   /* sizing and background color */
   height: 80%;
   width: 80%;
@@ -70,6 +70,22 @@ html {
   border-radius: 1vw;
   /* margin */
   margin-top: 0.3vw;
+  /* hover effect */
+  transition: transform .2s;
+}
+
+a {
+  /* link decoration */
+  text-decoration: none;
+  color: #f7cbf2;
+}
+
+/* desktop exclusive content */
+@media screen and (min-width: 32em) {
+  img:hover {
+    /* hover effect for images */
+    transform: scale(1.2);
+  }
 }
 
 /* mobile device optimization */
@@ -91,7 +107,7 @@ html {
     margin-bottom: 2.5vw;
   }
 
-  .image {
+  img {
     margin-top: 1vw;
     height: 100%;
     width: 65%;
