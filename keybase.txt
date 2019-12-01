@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/margeson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://marg.es
+  * I am margeson (https://keybase.io/margeson) on keybase.
+  * I have a public key ASCFx3HcVlD0TSuhGeW-0Dy1XBD5Jl5847QXa2ix38dCxgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cb2829749b79b6c299400308774ea965374a2d1f39d4ea38c78d8d69cbcf8fc80a",
+      "host": "keybase.io",
+      "kid": "012085c771dc5650f44d2ba119e5bed03cb55c10f9265e7ce3b4176b68b1dfc742c60a",
+      "uid": "2c57584b41fc96ccd36c444278bd3019",
+      "username": "margeson"
+    },
+    "merkle_root": {
+      "ctime": 1575161793,
+      "hash": "ac98dc33e5169531ea04521fb878b4fbe2686ff1a7aacf49fc3b8ed8fc243747971a864e9908ab12e619ac7091b402f90ecbc3a50bcb92f6549b49f9f92790d9",
+      "hash_meta": "f184fbaabb22fd31d200df109dd5afc14d5c95211dbefc92a53fbea7db1b6138",
+      "seqno": 11522874
+    },
+    "service": {
+      "entropy": "aD3D147xtK5+WdMcaJ8nzSrO",
+      "hostname": "marg.es",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575161804,
+  "expire_in": 504576000,
+  "prev": "084922e47e7fb2eba36ec8d03907013542e0702fa0dac917cacbc0ab9d9f25c5",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghcdx3FZQ9E0roRnlvtA8tVwQ+SZefOO0F2tosd/HQsYKp3BheWxvYWTESpcCCcQgCEki5H5/suujbsjQOQcBNULgcC+g2skXysvAq52fJcXEIPewJIXMLOsbA259l9S/SN1mqoSyGv6UrPqqT+wiSaL2AgHCo3NpZ8RAazbVG+bugHIkJpPg1aghjPbucQFIRTNbY86EORQjfmHZaq7cV/lq1Ix+FV2aXMghLU0AxIxiLWJUzvr95iKUCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFdQW+GpA1m7IUUsTLDqfJ19yCQTYL1w05qndQ6i+MA6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/margeson
+
+==================================================================
