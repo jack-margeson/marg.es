@@ -1,0 +1,8 @@
+ Redirect default Netlify subdomain to primary domain
+https://margeson.netlify.com/* https://marg.es/:splat 301!
+# Redirect www.marg.es to marg.es/on
+https://www.marg.es https://marge.es/on
+# Redirect marg.es to marg.es/on
+https://marg.es https://marg.es/on
+# Redirect localhost:8000 to localhost:8000/on (for Gatsby testing)
+localhost:8000 localhost:8000/on
