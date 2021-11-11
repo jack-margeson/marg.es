@@ -17,7 +17,7 @@ const links = {
   linkedin: "https://www.linkedin.com/in/jack-margeson/",
   github: "https://github.com/jack-margeson",
   repo: "https://github.com/jack-margeson/marg.es",
-  resume: "jack_margeson_resume.pdf",
+  resume: "https://bit.ly/margesonresume",
 };
 
 
