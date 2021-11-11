@@ -3,5 +3,10 @@ module.exports = {
     siteUrl: "https://marg.es",
     title: "marg.es",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    'react-icons',
+  ],
 };
