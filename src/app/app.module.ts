@@ -4,15 +4,21 @@ import { RouterModule, Routes } from '@angular/router'
 
 import { AppComponent } from './app.component';
 import { OnComponent } from './on/on.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
+  { path: 'on/about', component: AboutComponent },
+  { path: 'on/projects', component: ProjectsComponent },
   { path: 'on', component: OnComponent },
   { path: '', redirectTo: '/on', pathMatch: 'full' },
 ]
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(routes)
