@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-on',
   templateUrl: './on.component.html',
-  styleUrls: ['./on.component.sass']
+  styleUrls: ['./on.component.scss'],
 })
-export class OnComponent {
-
-}
+export class OnComponent {}
