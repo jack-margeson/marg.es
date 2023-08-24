@@ -1,0 +1,138 @@
+@use "../../media-queries.scss" as *;
+
+.main {
+  // Sizing and styling
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+
+  background-color: #1d1515;
+  // Flexbox information
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  // Sizing and styling
+  width: 85vw;
+  height: 70px;
+  margin-bottom: 20px;
+  // Flexbox information
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+  // Navigation link properties
+  // Text properties
+  @include lt-md {
+    a {
+      font-size: 2.1vw;
+    }
+  }
+  @include gt-sm {
+    a {
+      font-size: 1.1vw;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: #ffffff;
+  }
+  a:visited {
+    color: #ffffff;
+  }
+}
+.categories {
+  // Sizing and styling
+  width: 85vw;
+  height: auto;
+  // Text properties
+  color: #ffffff;
+  // Flexbox information
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.category-title {
+  // Text properties
+  @include lt-md {
+    font-size: 3.3vw;
+  }
+  @include gt-sm {
+    font-size: 2.2vw;
+  }
+}
+.category-desc {
+  // Text properties
+  @include lt-md {
+    font-size: 1.9vw;
+  }
+  @include gt-sm {
+    font-size: 1.6vw;
+  }
+}
+.projects {
+  // Sizing and styling
+  width: 85vw;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  // Text properties
+  color: #ffffff;
+  // Flexbox information
+  display: flex;
+  @include lt-md {
+    flex-direction: column;
+  }
+  @include gt-sm {
+    flex-direction: row;
+  }
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
+  align-self: center;
+}
+.project {
+  // Sizing and styling
+  @include lt-md {
+    width: 100%;
+    max-width: 100%;
+  }
+  @include gt-sm {
+    width: 30%;
+    max-width: 30%;
+  }
+  // Flexbox information
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.project-title {
+  // Sizing and styling
+  margin-top: 8px;
+  // Text properties
+  @include lt-md {
+    font-size: 2.7vw;
+  }
+  @include gt-sm {
+    font-size: 1.4vw;
+  }
+}
+.project-desc {
+  // Text properties
+  @include lt-md {
+    font-size: 2vw;
+  }
+  @include gt-sm {
+    font-size: 1vw;
+  }
+}
+.project-img {
+  // Sizing and styling
+  width: 100%;
+  max-width: 100%;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
