@@ -19,7 +19,9 @@
         *ngFor="let project of category.projects; let j = index"
         class="project"
       >
-        <img src="{{ project.img_ref }}" class="project-img" />
+        <a href="{{ project.link }}"
+          ><img src="{{ project.img_ref }}" class="project-img"
+        /></a>
         <p class="project-title">{{ project.name }}</p>
         <p class="project-desc">{{ project.description }}</p>
       </div>

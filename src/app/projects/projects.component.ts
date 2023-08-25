@@ -24,7 +24,8 @@ export class ProjectsComponent implements OnInit {
             project.name,
             project.description,
             project.long_description,
-            project.img_ref
+            project.img_ref,
+            project.link
           )
         );
       });
