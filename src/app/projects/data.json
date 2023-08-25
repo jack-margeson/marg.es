@@ -1,0 +1,44 @@
+[
+  {
+    "title": "personal projects",
+    "description": "my dumping ground of either silly or useful ideas. no inbetweens.",
+    "projects": [
+      {
+        "name": "marg.es",
+        "description": "recursion is pretty cool, yeah?",
+        "long_description": "longdesc",
+        "img_ref": "../../assets/images/project_previews/code.png"
+      },
+      {
+        "name": "Skillscapade",
+        "description": "a gamification challenge creation platform.",
+        "long_description": "longdesc",
+        "img_ref": "../../assets/images/project_previews/skillscapade.png"
+      },
+      {
+        "name": "project1",
+        "description": "shortdesc",
+        "long_description": "longdesc",
+        "img_ref": "../../assets/images/project_previews/code.png"
+      },
+      {
+        "name": "project1",
+        "description": "shortdesc",
+        "long_description": "longdesc",
+        "img_ref": "../../assets/images/project_previews/code.png"
+      }
+    ]
+  },
+  {
+    "title": "class work",
+    "description": "work for university classes that I'm particularly proud of.",
+    "projects": [
+      {
+        "name": "project1",
+        "description": "shortdesc",
+        "long_description": "longdesc",
+        "img_ref": "../../assets/images/project_previews/code.png"
+      }
+    ]
+  }
+]
