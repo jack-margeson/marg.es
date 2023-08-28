@@ -1,1 +1,30 @@
-<p>Projects page coming soon!</p>
+<div class="main">
+  <div class="navigation text-regular">
+    <a class="material-symbols-outlined" href="/on"> arrow_back </a>
+    <a href="/on/about">about</a>
+    <a href="/on/projects" style="text-decoration: underline">projects</a>
+    <a href="https://github.com/jack-margeson" target="_blank">github</a>
+    <a href="https://www.linkedin.com/in/jack-margeson/" target="_blank"
+      >linkedin</a
+    >
+  </div>
+  <div
+    *ngFor="let category of categories; let i = index"
+    class="categories text-regular"
+  >
+    <p class="category-title">{{ category.title }}</p>
+    <p class="category-desc">{{ category.description }}</p>
+    <div class="projects">
+      <div
+        *ngFor="let project of category.projects; let j = index"
+        class="project"
+      >
+        <a href="{{ project.link }}"
+          ><img src="{{ project.img_ref }}" class="project-img"
+        /></a>
+        <p class="project-title">{{ project.name }}</p>
+        <p class="project-desc">{{ project.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
