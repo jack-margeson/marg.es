@@ -15,7 +15,7 @@
         "description": "open source resume, written in TeX.",
         "long_description": "longdesc",
         "img_ref": "../../assets/images/project_previews/resume.png",
-        "link": "https://github.com/jack-margeson/resume"
+        "link": "https://github.com/jack-margeson/resume/blob/978e645be04220d783540b1edc659834e00e9d32/resume.pdf"
       },
       {
         "name": "Skillscapade",
@@ -56,7 +56,7 @@
         "description": "parallel computing labs with CUDA.",
         "long_description": "longdesc",
         "img_ref": "../../assets/images/project_previews/parallel.png",
-        "link": ""
+        "link": "https://github.com/jack-margeson/parallel-computing"
       },
       {
         "name": "project-green",
