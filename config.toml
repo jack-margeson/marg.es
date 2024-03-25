@@ -1,4 +1,4 @@
-baseURL = 'https://marg.es/on'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'margeson@jack'
 theme = 'risotto'
