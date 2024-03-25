@@ -1,7 +1,7 @@
 baseURL = 'http://marg.es/on'
 languageCode = 'en-us'
 title = 'margeson@jack'
-theme = 'risotto' 
+theme = 'risotto'
 
 paginate = 3
 DefaultContentLanguage = "en"
