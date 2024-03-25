@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://marg.es/on'
 languageCode = 'en-us'
 title = 'margeson@jack'
 theme = 'risotto'
@@ -106,6 +106,3 @@ unsafe = true
 
   [services.twitter]
     disableInlineCSS = true
-
-[context.deploy-preview]
-command = "hugo -b $DEPLOY_PRIME_URL"
