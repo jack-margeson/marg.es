@@ -1,8 +1,6 @@
 [build]
+  command = "hugo -D --baseURL https://marg.es/on"
   publish = "public"
-  command = "hugo --gc --minify"
 
-[[redirects]]
-  from   = "/"
-  to     = "/on"
-  status = 200
+[build.environment]
+  HUGO_VERSION = "0.124.1"

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on margeson@jack</title>
-    <link>//localhost:1313/on/tags/index/</link>
+    <link>http://localhost:1313/on/tags/index/</link>
     <description>Recent content in Index on margeson@jack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/on/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/on/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>//localhost:1313/on/posts/</link>
+      <link>http://localhost:1313/on/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/on/posts/</guid>
+      <guid>http://localhost:1313/on/posts/</guid>
       <description>Blog posts coming soon.</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>//localhost:1313/on/projects/</link>
+      <link>http://localhost:1313/on/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/on/projects/</guid>
+      <guid>http://localhost:1313/on/projects/</guid>
       <description>Projects coming soon. In the meantime, check my GitHub.</description>
     </item>
   </channel>
