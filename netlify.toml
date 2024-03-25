@@ -1,5 +1,3 @@
 [build]
 
-publish = "public/on"
-
 command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
