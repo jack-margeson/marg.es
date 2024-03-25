@@ -25,6 +25,6 @@
   HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from   = "/"
-  to     = "/on/"
+  from   = "marg.es"
+  to     = "marg.es/on"
   status = 200
