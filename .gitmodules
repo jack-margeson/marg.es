@@ -1,3 +1,4 @@
+# Update submodules
 [submodule "themes/risotto"]
 	path = themes/risotto
 	url = https://github.com/jack-margeson/risotto.git
