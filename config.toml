@@ -21,7 +21,7 @@ palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = " Jack Margeson"
+title = "Jack Margeson"
 description = "Student, software developer, and problem solver at heart. Welcome to my site!"
 # unicode/emoji logo:
 #logo = "🍚"
