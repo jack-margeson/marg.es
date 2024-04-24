@@ -8,13 +8,13 @@ draft: false
 
 Repository link: [jack-margeson/contiguous-memory-allocation](https://github.com/jack-margeson/contiguous-memory-allocation)
 
-## Project overview
+## Project Overview
 
 <br>
 
 This project was done for a course at the University of Cincinnati, EECE4029: Operating Systems and Systems Programming.
-The main goal of this project was to create a simulation program that ran in the terminal to showcase how memory might be allocated/
-deallocated by an operating system with multiple processes requesting memory.
+The main goal of this project was to create a simulation program that ran in the terminal to showcase how memory might be allocated/deallocated
+by an operating system with multiple processes requesting memory.
 
 The simulation has several memory allocation options, being first fit, best fit, and worst fit. An option is also provided to
 compact unused holes in memory.
