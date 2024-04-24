@@ -8,4 +8,4 @@ tags = ["index"]
 
 <br/>
 
-Projects coming soon. In the meantime, check my [GitHub](https://github.com/jack-margeson).
+More project write-ups coming soon. In the meantime, check my [GitHub](https://github.com/jack-margeson).
