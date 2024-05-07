@@ -28,6 +28,12 @@ Under the projects tab, you can find many of my past code repositories for both 
 The blog section of this site is dedicated to documenting in-progress reports for ongoing projects, posts about topics that I might find interesting, experiences that I've had recently, or really anything else that comes to mind.
 
 <script>
+    // Try and redirect the user from the base URL to the vanity.
+    // I'm tired of trying to fix this in Hugo. 3/5 framework!
+    if (window.location.href == "https://marg.es") {
+        window.location.replace("https://marg.es/on/")
+    }
+
     var count = 0;
 
     function imgAboutClicked() {
