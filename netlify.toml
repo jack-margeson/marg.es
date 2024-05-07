@@ -3,3 +3,16 @@
   to = "https://marg.es/on/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://git.marg.es"
+  to = "https://github.com/jack-margeson"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "https://linkedin.marg.es"
+  to = "https://www.linkedin.com/in/jack-margeson/"
+  status = 301
+  force = true
+  
