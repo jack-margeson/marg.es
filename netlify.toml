@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://marg.es"
+  to = "https://marg.es/on/"
+  status = 301
+  force = true
