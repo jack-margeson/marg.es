@@ -7,5 +7,3 @@ tags = ["index"]
 +++
 
 <br/>
-
-Blog posts coming soon.
