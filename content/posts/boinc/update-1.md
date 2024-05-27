@@ -1,7 +1,7 @@
 ---
 title: "[BOINC] Update #1: Project Planning"
 date: 2024-05-21T13:19:51-04:00
-draft: true
+draft: false
 params:
   display_related: true
   description: "Project planning, and a deep dive into the BOINC framework."
