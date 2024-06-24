@@ -12,26 +12,26 @@ params:
 
 Hello, and welcome back to the third entry of the soon-to-be-titled BOINC project development blog series! This week, I want to introduce you to the problem that I've chosen to work on.
 
-In data science, there is a technique that researchers utilize called "[itemset mining](https://en.wikipedia.org/wiki/Sequential_pattern_mining#Itemset_mining)". The goal of this technique is to find relation between sets of items, and it's most often used in the commerce industry in order to associate a set of products with another. For example, if a customer walked into the grocery store and picked up the items $\{\text{eggs, milk, bread}\}$, the results of itemset mining may tell us that the customer will likely also add $\{\text{cinnamon, sugar}\}$ to their cart (mmm... french toast). This data could be potentially very useful to the management at the grocery store for several reasons, including grouping aisles together based on commonly bought items and their relational sets so that shopping is more efficient and profitable.
+In data science, there is a technique that researchers utilize called "[itemset mining](https://en.wikipedia.org/wiki/Sequential_pattern_mining#Itemset_mining)". The goal of this technique is to find relation between sets of items, and it's most often used in the commerce industry in order to associate a set of products with another. For example, if a customer walked into the grocery store and picked up the items $\\\{\text{eggs, milk, bread}\\\}$, the results of itemset mining may tell us that the customer will likely also add $\\\{\text{cinnamon, sugar}\\\}$ to their cart (mmm... french toast). This data could be potentially very useful to the management at the grocery store for several reasons, including grouping aisles together based on commonly bought items and their relational sets so that shopping is more efficient and profitable.
 
 There are several algorithms that can assist data scientists in performing itemset mining. One of these algorithms will be the focus of my distributed computing project--the Apriori algorithm. Originally described in [Fast Discovery of Association Rules (Agrawal, Rakesh, et al.)](https://www.cs.bme.hu/~marti/adatbanya/apriori_hashtree.pdf), this algorithm takes a list of transactions and outputs frequent item sets based on occurrences.
 
-**Here's a breakdown of the algorithm.** We'll start with defining a set of items, one for each unique item in the transactional database, $I=\{i_1,i_2,\dots i_n\}$. We have a transactional database $T$, which is a list of k-itemsets (a set of items containing $k$ items), such as $T = [\{i_1\}, \{i_1,i_2\},\{i_1, i_4\},\{i_3,i_2\}]$. And finally, we also have the constant $C$, which is the relevancy threshold (in this example, let's set $C=2$).
+**Here's a breakdown of the algorithm.** We'll start with defining a set of items, one for each unique item in the transactional database, $I=\\\{i_1,i_2,\dots i_n\\\}$. We have a transactional database $T$, which is a list of k-itemsets (a set of items containing $k$ items), such as $T = [\\\{i_1\\\}, \\\{i_1,i_2\\\},\\\{i_1, i_4\\\},\\\{i_3,i_2\\\}]$. And finally, we also have the constant $C$, which is the relevancy threshold (in this example, let's set $C=2$).
 
-The overall idea is to generate _candidate sets_, which is a list of sets denoted by $C_k$, where $k$ is the number of items in each set. We will repeat this process until we run out of itemsets that match the relevancy threshold that we have set. The first step in the algorithm is to generate $C_1$, which is the first candidate set. In our example, $C_1=[\{i_1\}, \{i_2\},\{i_3\},\{i_4\}]$. We then perform iteration through our transactional database--for each set $t_i$ in $T$ and each set $c_i$ in $C_k$, count the instances in which $c_i$ is a subset of $t_i$. For our example, we get the following:
+The overall idea is to generate _candidate sets_, which is a list of sets denoted by $C_k$, where $k$ is the number of items in each set. We will repeat this process until we run out of itemsets that match the relevancy threshold that we have set. The first step in the algorithm is to generate $C_1$, which is the first candidate set. In our example, $C_1=[\\\{i_1\\\}, \\\{i_2\\\},\\\{i_3\\\},\\\{i_4\\\}]$. We then perform iteration through our transactional database--for each set $t_i$ in $T$ and each set $c_i$ in $C_k$, count the instances in which $c_i$ is a subset of $t_i$. For our example, we get the following:
 
 | Itemsets ($C_1$) | Support ($\vert c_i \subseteq t_i\vert$) |
 | ---------------- | ---------------------------------------- |
-| $\{i_1\}$        | 3                                        |
-| $\{i_2\}$        | 2                                        |
-| $\{i_3\}$        | 1                                        |
-| $\{i_4\}$        | 1                                        |
+| $\\\{i_1\\\}$    | 3                                        |
+| $\\\{i_2\\\}$    | 2                                        |
+| $\\\{i_3\\\}$    | 1                                        |
+| $\\\{i_4\\\}$    | 1                                        |
 
-We can see now that the only two itemsets that pass our minimum support threshold $C=2$ are $\{i_1\}$ and $\{i_2\}$. With this information, we construct a new set of items consisting of only items from the itemsets that passed the support threshold, so $I_2=\{i_1,i_2\}$. Then we run candidate set generation again for the next $k$ level, so in our case $C_2=[\{1,2\}]$, which only has one candidate set. Again iterating through our transactional database, we get:
+We can see now that the only two itemsets that pass our minimum support threshold $C=2$ are $\\\{i_1\\\}$ and $\\\{i_2\\\}$. With this information, we construct a new set of items consisting of only items from the itemsets that passed the support threshold, so $I_2=\\\{i_1,i_2\\\}$. Then we run candidate set generation again for the next $k$ level, so in our case $C_2=[\\\{1,2\\\}]$, which only has one candidate set. Again iterating through our transactional database, we get:
 
-| Itemsets ($C_2$) | Support ($\vert c_i \subseteq t_i\vert$) |
-| ---------------- | ---------------------------------------- |
-| $\{i_1, i_2\}$   | 1                                        |
+| Itemsets ($C_2$)   | Support ($\vert c_i \subseteq t_i\vert$) |
+| ------------------ | ---------------------------------------- |
+| $\\\{i_1, i_2\\\}$ | 1                                        |
 
 ... and we see that we no longer have any itemsets that satisfy our support threshold of $C=2$. Therefore, we have finished performing the Apriori algorithm.
 
