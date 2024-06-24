@@ -15,4 +15,12 @@
   to = "https://www.linkedin.com/in/jack-margeson/"
   status = 301
   force = true
-  
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = """
+      default-src 'self'; 
+      script-src 'self' 'unsafe-inline'; 
+      style-src 'self' 'unsafe-inline';
+    """
