@@ -20,10 +20,8 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy = """
-      default-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js;
-      script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js 'unsafe-eval';
-      style-src 'self' 'unsafe-inline';
-      font-src 'self';
-      img-src 'self';
+      default-src 'self' data: 'unsafe-inline' 'unsafe-eval' *;
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+      style-src 'self' 'unsafe-inline' *;
     """
 
