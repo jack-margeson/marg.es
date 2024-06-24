@@ -16,12 +16,5 @@
   status = 301
   force = true
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = """
-      default-src 'self' data: 'unsafe-inline' 'unsafe-eval' *;
-      script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
-      style-src 'self' 'unsafe-inline' *;
-    """
+
 

@@ -11,7 +11,8 @@ sectionPagesMenu = "main"
 
 [params]
 noindex = false
-math = false
+# TODO: Setting this to true for the time being. Why do Hugo parameters not load on Netlify?
+math = true
   [params.theme]
   palette = "base16-dark"
 
