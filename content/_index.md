@@ -10,7 +10,7 @@
 
 Hello! My name is Jack Margeson. I'm a student at the [University of Cincinnati](https://www.uc.edu/), concurrently working on my bachelor's and master's degrees in Computer Science through the ACCEND program.
 
-Currently, I'm a full-time software developer for [Siemens](https://plm.sw.siemens.com/en-US/), working on product lifecycle managment.
+Currently, I'm a full time student in my final two semesters of school, with a graduation date in Spring 2025.
 
 I've been a Boy Scout all my life, and achieved the highest rank of Eagle Scout in September, 2019.
 
@@ -23,7 +23,7 @@ As a maker, I serve as leadership for a local non-profit makerspace in Cincinnat
 
 This site is part portfolio of my work and part blog posts.
 
-Under the projects tab, you can find many of my past code repositories for both school and personal endeavours alongside write-ups on the project if applicable.
+Under the projects tab, you can find many of my past code repositories for both school and personal endeavors alongside write-ups on the project if applicable.
 
 The blog section of this site is dedicated to documenting in-progress reports for ongoing projects, posts about topics that I might find interesting, experiences that I've had recently, or really anything else that comes to mind.
 
