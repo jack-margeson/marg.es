@@ -12,7 +12,7 @@ Hello! My name is Jack Margeson. I'm a student at the [University of Cincinnati]
 
 Currently, I'm a full time student in my final two semesters of school, with a graduation date in Spring 2025.
 
-I've been a Boy Scout all my life, and achieved the highest rank of Eagle Scout in September, 2019.
+I've been a Boy Scout all my life, and achieved the highest rank of Eagle Scout in Sept. 2019.
 
 In my free time, I like to make all sorts of cool things, in all sorts of different mediums: glass-working, woodworking, metalworking, fabric-working, embroidery, 3D printing, hobby electronics, and more.
 As a maker, I serve as leadership for a local non-profit makerspace in Cincinnati called [Hive13](https://hive13.org/). You can check out my wiki page [here](https://wiki.hive13.org/view/User:Jackmargeson).
