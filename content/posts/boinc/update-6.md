@@ -8,6 +8,8 @@ params:
   math: true
 ---
 
+<br>
+
 Hello, and welcome back to the seventh entry of the apriori@home project development blog series! Earlier today, I posted an update regarding the work generator. Go back and read that post if you haven't already, as this entry is a direct continuance. 
 
 So, now that we're done with the work generator, and we have work units being created and processed by clients, what now? Well, we get an output file for each work unit processed thanks to the `generate_candidates` application, and currently, they live in a folder on the root directory named `generate_candidates_results`. Now, what can we do with these files? We've completed the first half of the Apriori algorithm by generating candidate sets, so now, we must complete the second half of the algorithm by finding out which candidates are frequent enough in the transactions list for them to be considered a significant finding.

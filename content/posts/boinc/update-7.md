@@ -8,6 +8,8 @@ params:
   math: true
 ---
 
+<br>
+
 Hello, and welcome back to the eighth (and as for right now, final) entry of the apriori@home project development blog series! Today, I'll be sharing some general thoughts and things I learned during the duration of my summer research project. 
 
 Let's go through all the goals that I set out to achieve:
