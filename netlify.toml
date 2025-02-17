@@ -17,4 +17,24 @@
   force = true
 
 
+# Redirects for project installers hosted on GitHub
+# curl -fsSL x | bash
 
+[[redirects]]
+  from = "https://marg.es/on/install/stims"
+  to = "https://raw.githubusercontent.com/jack-margeson/stims/refs/heads/main/install/install.sh"
+  status = 301
+  force = true 
+  
+# STIMS 
+[[redirects]]
+  from = "https://marg.es/on/install/stims.sh"
+  to = "https://raw.githubusercontent.com/jack-margeson/stims/refs/heads/main/install/install.sh"
+  status = 301
+  force = true 
+
+[[redirects]]
+  from = "https://marg.es/on/install/stims.ps1"
+  to = "https://raw.githubusercontent.com/jack-margeson/stims/refs/heads/main/install/install.ps1"
+  status = 301
+  force = true 
