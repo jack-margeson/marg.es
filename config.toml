@@ -4,7 +4,7 @@ title = 'margeson@jack'
 theme = 'risotto'
 
 # paginate = 3
-pagination.pagerSize = 3
+"pagination.pagerSize" = 3
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
