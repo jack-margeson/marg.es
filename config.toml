@@ -3,7 +3,8 @@ languageCode = 'en-us'
 title = 'margeson@jack'
 theme = 'risotto'
 
-paginate = 3
+# paginate = 3
+pagination.pagerSize = 3
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
@@ -19,7 +20,7 @@ math = true
   # Sidebar: about/bio
   [params.about]
   title = "Jack Margeson"
-  description = "Student, software developer, and problem solver at heart. Welcome to my site!"
+  description = "Engineer, software developer, and problem solver at heart. Welcome to my site!"
   # unicode/emoji logo:
   #logo = "🍚"
   # or use an image:

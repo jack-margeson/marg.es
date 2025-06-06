@@ -8,13 +8,12 @@
 
 <img id="imgAbout" src="jack.jpg" alt="Jack Margeson" width="250" style="float:left;padding-right:15px;" onclick="imgAboutClicked()">
 
-Hello! My name is Jack Margeson. I'm a student at the [University of Cincinnati](https://www.uc.edu/), concurrently working on my bachelor's and master's degrees in Computer Science through the ACCEND program.
+Hello! My name is Jack Margeson. I’m a computer scientist and engineer with a passion for problem solving and creating efficient solutions. I graduated from the [University of Cincinnati](https://www.uc.edu/) with my Master of Engineering in Computer Science and was honored to be selected as the Best Co-op Performer for my graduating class.
 
-Currently, I'm a full time student in my final two semesters of school, with a graduation date in Spring 2025.
+Currently, I work at [Siemens Digital Industries Software](https://www.sw.siemens.com/en-US/) as a Software Engineer, helping develop the [NX CAD](https://plm.sw.siemens.com/en-US/nx/cad-online/) suite.
 
-I've been a Boy Scout all my life, and achieved the highest rank of Eagle Scout in Sept. 2019.
+Outside of tech, I’m a lifelong Eagle Scout (achieved 2019) and an obsessive maker. Whether it’s glassworking, metal fabrication, 3D printing, or hobby electronics, I’m always working on a new project. I believe the best solutions come from blending technical skill with hands-on creativity.
 
-In my free time, I like to make all sorts of cool things, in all sorts of different mediums: glass-working, woodworking, metalworking, fabric-working, embroidery, 3D printing, hobby electronics, and more.
 As a maker, I serve as leadership for a local non-profit makerspace in Cincinnati called [Hive13](https://hive13.org/). You can check out my wiki page [here](https://wiki.hive13.org/view/User:Jackmargeson).
 
 # Site
@@ -23,7 +22,7 @@ As a maker, I serve as leadership for a local non-profit makerspace in Cincinnat
 
 This site is part portfolio of my work and part blog posts.
 
-Under the projects tab, you can find many of my past code repositories for both school and personal endeavors alongside write-ups on the project if applicable.
+Under the projects tab, you can find many of my past code repositories for both my past university projects and personal endeavors alongside write-ups on the project if applicable.
 
 The blog section of this site is dedicated to documenting in-progress reports for ongoing projects, posts about topics that I might find interesting, experiences that I've had recently, or really anything else that comes to mind.
 
