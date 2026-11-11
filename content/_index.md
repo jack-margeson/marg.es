@@ -8,9 +8,9 @@
 
 <img id="imgAbout" src="jack.jpg" alt="Jack Margeson" width="250" style="float:left;padding-right:15px;" onclick="imgAboutClicked()">
 
-Hello! My name is Jack Margeson. I’m a computer scientist and engineer with a passion for problem solving and creating efficient solutions. I graduated from the [University of Cincinnati](https://www.uc.edu/) with my Master of Engineering in Computer Science and was honored to be selected as the Best Co-op Performer for my graduating class.
+Hello! My name is Jack Margeson. I’m a computer scientist and engineer with a passion for problem solving and creating efficient solutions. I graduated from the [University of Cincinnati](https://www.uc.edu/) with my Master of Engineering in Computer Science in 2025 and was honored to be selected as the Best Co-op Performer for my graduating class.
 
-Currently, I work at [Siemens Digital Industries Software](https://www.sw.siemens.com/en-US/) as a Software Engineer, helping develop the [NX CAD](https://plm.sw.siemens.com/en-US/nx/cad-online/) suite.
+Currently, I work full-time at [Narratize](https://narratize.com/) as a Software Engineer, helping build the premiere AI-Powered System of Intelligence for New Product Development.
 
 Outside of tech, I’m a lifelong Eagle Scout (achieved 2019) and an obsessive maker. Whether it’s glassworking, metal fabrication, 3D printing, or hobby electronics, I’m always working on a new project. I believe the best solutions come from blending technical skill with hands-on creativity.
 
