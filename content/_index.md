@@ -10,7 +10,7 @@
 
 Hello! My name is Jack Margeson. I’m a computer scientist and engineer with a passion for problem solving and creating efficient solutions. I graduated from the [University of Cincinnati](https://www.uc.edu/) with my Master of Engineering in Computer Science in 2025 and was honored to be selected as the Best Co-op Performer for my graduating class.
 
-Currently, I work full-time at [Narratize](https://narratize.com/) as a Software Engineer, helping build the premiere AI-Powered System of Intelligence for New Product Development.
+Currently, I work full-time at [Narratize](https://narratize.com/) as a Software Engineer, where I'm building the premiere AI-Powered System of Intelligence for New Product Development to help companies bring superior products to market faster.
 
 Outside of tech, I’m a lifelong Eagle Scout (achieved 2019) and an obsessive maker. Whether it’s glassworking, metal fabrication, 3D printing, or hobby electronics, I’m always working on a new project. I believe the best solutions come from blending technical skill with hands-on creativity.
 
